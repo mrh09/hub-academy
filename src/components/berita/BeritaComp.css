@@ -1,0 +1,9 @@
+.body-berita-section {
+  display: grid;
+  grid-template-columns: repeat(3, 15vw);
+  grid-row-gap: 30px;
+  grid-column-gap: 40px;
+  width: 100%;
+  justify-content: space-around;
+  justify-items: center;
+}

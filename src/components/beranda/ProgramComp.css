@@ -1,0 +1,39 @@
+.program-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #2e4b3f;
+  height: 15vw;
+  color: #fff;
+}
+
+.program-section {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  color: #fff;
+}
+
+.logo-icon-book,
+.logo-icon-time,
+.logo-icon-pen {
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+  margin-right: 5px;
+  width: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.logo-icon-book {
+  background: #ffd923;
+}
+
+.logo-icon-time {
+  background: #ff5f5f;
+}
+
+.logo-icon-pen {
+  background: #1fa7ff;
+}

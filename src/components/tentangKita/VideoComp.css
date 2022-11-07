@@ -1,0 +1,28 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  justify-content: center;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.player-wrapper {
+  width: 854px;
+  height: 480px;
+}
+
+@media screen and (max-width: 960px) {
+  .player-wrapper {
+    width: 640px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .player-wrapper {
+    width: 306px;
+    height: 170px;
+  }
+}

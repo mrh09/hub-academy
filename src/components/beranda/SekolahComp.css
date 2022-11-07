@@ -1,0 +1,61 @@
+.sekolah-container {
+  display: flex;
+  width: auto;
+  z-index: 9;
+  height: 100vh;
+  margin-top: 80px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.sekolah-background {
+  width: 30vw;
+}
+
+.sekolah-row {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sekolah-col {
+  width: 45vw;
+  align-items: center;
+  text-align: center;
+}
+
+.sekolah-col > h1 {
+  color: #242424;
+  text-align: start;
+}
+
+.sekolah-col > p {
+  margin: 30px 0 20px 0;
+  color: #242424;
+  text-align: start;
+}
+
+.sekolah-col > button {
+  float: left;
+  background-color: #2ecb89;
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.sekolah-col > button:hover {
+  background: #fff;
+  color: #29a973;
+  transition: all 0.2s ease-in-out;
+}

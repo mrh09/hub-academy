@@ -1,0 +1,24 @@
+.keunggulan-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #2e4b3f;
+  height: 100vh;
+  color: #fff;
+}
+
+.keunggulan-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.keunggulan-section {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: flex-start;
+}
+
+.keunggulan-section > p {
+  margin-left: 20px;
+}

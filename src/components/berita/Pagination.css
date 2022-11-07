@@ -1,0 +1,37 @@
+.pagination-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18px;
+  margin-top: 10px;
+}
+
+.pagination-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.button-pagination-section > button {
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #242424;
+  border-color: #242424;
+}
+
+.button-pagination-section button.active {
+  font-weight: 900;
+  background: #2ecb89;
+  color: #fff;
+  border-color: #2ecb89;
+}
