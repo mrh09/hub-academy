@@ -37,3 +37,39 @@
 .logo-icon-pen {
   background: #1fa7ff;
 }
+
+@media screen and (max-width: 960px) {
+  .program-section {
+    font-size: 14px;
+  }
+
+  .logo-icon-book,
+  .logo-icon-time,
+  .logo-icon-pen {
+    height: 25px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .program-container {
+    flex-direction: column;
+    height: 40vh;
+    align-items: flex-start;
+  }
+
+  .program-container > h1 {
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .program-section {
+    width: auto;
+  }
+
+  .logo-icon-book,
+  .logo-icon-time,
+  .logo-icon-pen {
+    width: 25px;
+  }
+}

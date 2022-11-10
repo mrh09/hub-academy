@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+.button-pagination-section {
+  display: flex;
+}
+
 .button-pagination-section > button {
   width: 30px;
   height: 30px;
@@ -34,4 +38,10 @@
   background: #2ecb89;
   color: #fff;
   border-color: #2ecb89;
+}
+
+@media screen and (max-width: 720px) {
+  .pagination-section > p {
+    font-size: 14px;
+  }
 }

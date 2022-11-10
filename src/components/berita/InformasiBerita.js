@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../App.css'
 
 function InformasiBerita() {
     return (
         <>
-            <div className="program-container">
+            <div className="title-container container">
                 <h1>Informasi Terbaru</h1>
             </div>
         </>

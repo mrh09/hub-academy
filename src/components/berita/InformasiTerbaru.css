@@ -32,3 +32,9 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 720px) {
+  .information-section > p {
+    font-size: 14px;
+  }
+}

@@ -46,3 +46,27 @@
   color: #29a973;
   transition: all 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 720px) {
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-col {
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .contact-col > h1 {
+    font-size: 24px;
+  }
+
+  .contact-col > p {
+    font-size: 14px;
+  }
+
+  .btn-contact {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}

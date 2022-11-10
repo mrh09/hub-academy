@@ -7,3 +7,10 @@
   justify-content: space-around;
   justify-items: center;
 }
+
+@media screen and (max-width: 720px) {
+  .body-berita-section {
+    grid-template-columns: repeat(1, 15vw);
+    grid-row-gap: 10px;
+  }
+}

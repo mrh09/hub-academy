@@ -58,3 +58,18 @@
 .other-post-section {
   width: 100%;
 }
+
+@media screen and (max-width: 720px) {
+  .post-section > h1,
+  .other-post-section > h1 {
+    font-size: 24px;
+  }
+
+  .post-section > h4,
+  .post-section > p {
+    font-size: 14px;
+  }
+  .other-post-section > h1 {
+    text-align: center;
+  }
+}

@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footer-section">
                     <div className="about-footer-section">
                         <h2>Inagata <br /> Template</h2>
-                        <p>Jelajahi semua pengetahuan dan ilmu yang <br /> berguna bersama kami, untuk kehidupan yang <br /> lebih bermanfaat</p>
+                        <p>Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat</p>
                         <div className="footer-icon-section">
                             <div className="footer-icon">
                                 <FaTwitter />

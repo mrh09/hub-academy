@@ -31,3 +31,23 @@
 .card-guru-container > p {
   margin-top: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .guru-container > h1 {
+    font-size: 24px;
+  }
+
+  .guru-section {
+    grid-template-columns: repeat(4, 15vw);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+  }
+
+  .card-guru-container > h3 {
+    font-size: 16px;
+  }
+
+  .card-guru-container > p {
+    font-size: 14px;
+  }
+}

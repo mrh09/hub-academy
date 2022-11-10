@@ -124,7 +124,7 @@ function BeritaComp() {
                             return (
                                 <div className="card-news" key={index}>
                                     <div className="card-news-container">
-                                        <img className="card-img" src={beritas.img} alt={beritas.title} />
+                                        <img className="card-news-img" src={beritas.img} alt={beritas.title} />
                                         <p>{beritas.date}</p>
                                         <h3>{beritas.title}</h3>
                                     </div>

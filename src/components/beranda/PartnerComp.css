@@ -12,6 +12,14 @@
   justify-content: space-between;
 }
 
+.header-partner-section > h1 {
+  width: max-content;
+}
+
+.header-partner-section > p {
+  width: 50%;
+}
+
 .header-partner-tentang-section {
   display: flex;
   flex-direction: column;
@@ -25,4 +33,31 @@
   list-style: none;
   justify-content: space-between;
   padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .logo-partner-section {
+    width: auto;
+  }
+  .logo-partner-section > ul > li > img {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header-partner-section {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .header-partner-section > h1 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .header-partner-section > p {
+    width: 100%;
+    font-size: 14px;
+  }
 }

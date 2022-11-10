@@ -59,3 +59,32 @@
   color: #29a973;
   transition: all 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 960px) {
+  .sekolah-col > h1 {
+    font-size: 24px;
+  }
+
+  .sekolah-col > p {
+    font-size: 14px;
+  }
+
+  .sekolah-col > button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .sekolah-row {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .sekolah-col {
+    width: auto;
+  }
+
+  .sekolah-background {
+    width: 60vw;
+  }
+}

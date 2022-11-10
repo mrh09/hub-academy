@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../App.css'
 
 function GalariTerbaru() {
     return (
         <>
-            <div className="program-container">
+            <div className="title-container container">
                 <h1>Kumpulan Kegiatan Sekolah</h1>
             </div>
         </>

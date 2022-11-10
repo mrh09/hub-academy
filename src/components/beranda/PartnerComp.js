@@ -7,7 +7,7 @@ function PartnerComp() {
             <div className="partner-container container">
                 <div className="header-partner-section">
                     <h1>Partner <br /> Kerja Sama</h1>
-                    <p>Kami Bekerja sama dengan berbagai lembaga dan perusahaan <br />besar diseluruh Indonesia untuk menyalurkan bakat siswa kami. <br />diharapakan dengan adanaya kerja sama ini siswa dapat meraih prestasi</p>
+                    <p>Kami Bekerja sama dengan berbagai lembaga dan perusahaan besar diseluruh Indonesia untuk menyalurkan bakat siswa kami. diharapkan dengan adanaya kerja sama ini siswa dapat meraih prestasi</p>
                 </div>
                 <div className="logo-partner-section">
                     <ul>

@@ -7,7 +7,7 @@ import './ProgramComp.css'
 function ProgramComp() {
     return (
         <>
-            <div className="program-container">
+            <div className="program-container container">
                 <div className="program-section">
                     <div className="logo-icon-book">
                         <FiBook />
