@@ -73,6 +73,12 @@ span {
   transition: 0.3s;
 }
 
+.card-news:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .card-news-container > h3 {
   margin: 10px 20px;
 }

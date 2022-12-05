@@ -31,6 +31,7 @@
   background: transparent;
   color: #242424;
   border-color: #242424;
+  text-align: center;
 }
 
 .button-pagination-section button.active {

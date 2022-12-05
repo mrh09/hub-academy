@@ -44,6 +44,7 @@
 .btn-contact:hover {
   background: #fff;
   color: #29a973;
+  outline: 1px solid #29a973;
   transition: all 0.2s ease-in-out;
 }
 

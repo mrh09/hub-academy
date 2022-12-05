@@ -29,6 +29,12 @@
   width: 25vw;
 }
 
+.card-img:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .activity-link {
   color: #2ecb89;
   text-decoration: none;
